@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.webanalyticsautomation.EngineWithWebDriverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-27T05:13:04" hostname="NC3JX5Z1" time="44.393">
+  <properties/>
+  <testcase name="captureAndVerifyDataReportedToWebAnalytics_WebDriver_Firefox" classname="com.thoughtworks.webanalyticsautomation.EngineWithWebDriverTest" time="44.393"/>
+  <system-out><![CDATA[2016-08-27 10:43:04,581 INFO  [Test worker] Controller        (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:43:04,595 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:43:04,601 INFO  [Test worker] Controller        (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:43:04,602 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:43:04,604 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:34) 
+     - Starting WebDriver on OS: windows 7 for browser: firefox
+2016-08-27 10:43:31,089 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:52) 
+     - Driver started: firefox
+2016-08-27 10:43:32,831 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:53) 
+     - Page title: Digg - What the Internet is talking about right now
+2016-08-27 10:43:40,050 INFO  [Test worker] Engine            (  Engine.java:52) 
+     - Is Web Analytics Testing Enabled? - Getting variable value from ThreadLocal: usingWAAT11
+2016-08-27 10:43:40,107 INFO  [Test worker] Engine            (  Engine.java:54) 
+     - Is Web Analytics Testing Enabled? - WebAnalytics enabled status: true
+2016-08-27 10:43:40,108 INFO  [Test worker] Engine            (  Engine.java:65) 
+     - Verify Web Analytics Data for OMNITURE_DEBUGGER
+2016-08-27 10:43:40,125 INFO  [Test worker] TestData          (TestData.java:33) 
+     - Loading input data file: C:\Users\GatagatL\Documents\VodQA2016-WAAT\waat-sample-java\src\test\sampledata\TestData.xml
+2016-08-27 10:43:40,125 INFO  [Test worker] TestData          (TestData.java:62) 
+     - Loading Input data file ...
+2016-08-27 10:43:40,431 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:29) 
+     - Creating an instance of Omniture Debugger
+2016-08-27 10:43:40,431 INFO  [Test worker] PluginFactory     (PluginFactory.java:30) 
+     - Returning Omniture Debugger plugin instance
+2016-08-27 10:43:40,431 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:33) 
+     - Capturing sections from Omniture Debugger
+2016-08-27 10:43:40,471 INFO  [Test worker] WebDriverScriptRunner (WebDriverScriptRunner.java:32) 
+     - Opening Omniture Debugger: javascript:(window.open("","stats_debugger","width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language='JavaScript' src='http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html'></script>"));
+2016-08-27 10:43:48,321 INFO  [Test worker] EngineWithWebDriverTest (TestBase.java:28) 
+     - Verification ERRORS:
+2016-08-27 10:43:48,322 INFO  [Test worker] EngineWithWebDriverTest (TestBase.java:29) 
+     - [Action Name: OpenUpcomingPage_OmnitureDebugger_WebDriver, Following tags found missing: , pageName=upcoming:index, cc=USD, ch=upcoming, events=event2, Adding Actual Section List: 1, <html xmlns="http://www.w3.org/1999/xhtml"><head><script src="http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html" language="JavaScript"></script><title>Omniture Debugger</title></head><body bgcolor="#CECECE"><table width="100%" cellspacing="1" cellpadding="2" border="0"><form name="debugger"></form><tbody><tr bgcolor="#293431"><td height="24" style="font:bold 14px arial,sans-serif;color:#FFFFFF;">  Omniture Debugger</td></tr><tr><td style="font:bold 11px arial,sans-serif;color:#000000;"><ul><li>This tool will recheck and refresh the request list every 5 seconds in the case that an image source changes or another flash event was tracked.  You can disable the auto refresh below.</li><li>This tool will not work with sites that use frames.</li></ul></td></tr><tr><td><input type="button" onclick="window.close();" value="Close" name="close1" /></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td height="8"></td></tr><tr><td style="font:bold 11px arial,sans-serif;color:#000000;">Data Collection Requests:  <span style="font:11px arial,sans-serif;color:#000000;">URL Decode</span> <input type="checkbox" onclick="window.url_decode=this.checked;request_list_run()" name="url_decode" />  <span style="font:11px arial,sans-serif;color:#000000;">Auto Refresh</span> <input type="checkbox" checked="checked" onclick="window.auto_refresh=this.checked" name="auto_refresh" /></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td align="center" id="request_list_cell"><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td align="center" style="font:11px arial,sans-serif;color:#FF0000;">No Requests Found</td></tr></tbody></table></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td height="8"></td></tr><tr><td><input type="button" onclick="window.close();" value="Close" name="close2" /></td></tr></tbody></table><img width="0" border="0" height="0" alt="0" src="http://support.112.2O7.net/b/ss/support/1/TAG/s0.669018001472274820/?pageName=Stats%20Debugger&amp;prop1=" /></body></html>]
+2016-08-27 10:43:48,323 INFO  [Test worker] TestData          (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.webanalyticsautomation.samples.ProxySampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-27T05:14:16" hostname="NC3JX5Z1" time="57.083">
+  <properties/>
+  <testcase name="captureAndVerifyDataReportedToWebAnalytics_Proxy_GoogleAnalytics_WebDriver_Firefox" classname="com.thoughtworks.webanalyticsautomation.samples.ProxySampleTest" time="57.083"/>
+  <system-out><![CDATA[2016-08-27 10:44:16,929 INFO  [Test worker] Engine            (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:44:16,929 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:44:16,942 INFO  [Test worker] Engine            (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:44:16,946 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:24) 
+     - Creating an instance of ProxyDebugger
+2016-08-27 10:44:16,946 INFO  [Test worker] PluginFactory     (PluginFactory.java:37) 
+     - Returning Proxy Debugger plugin instance
+2016-08-27 10:44:16,946 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:138) 
+     - Get Proxy for the port 0
+2016-08-27 10:44:16,947 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:114) 
+     - Initializing BrowserMobProxy for the port - 0
+2016-08-27 10:44:17,865 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:125) 
+     - Returning proxy
+2016-08-27 10:44:47,985 INFO  [Test worker] ProxySampleTest   (ProxySampleTest.java:59) 
+     - Start capture
+2016-08-27 10:44:47,985 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:44:47,985 INFO  [Test worker] Engine            (  Engine.java:44) 
+     - Enable Packet Capture
+2016-08-27 10:44:47,986 INFO  [Test worker] PluginFactory     (PluginFactory.java:37) 
+     - Returning Proxy Debugger plugin instance
+2016-08-27 10:44:47,986 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:131) 
+     - Start capture
+2016-08-27 10:44:50,906 INFO  [Test worker] ProxySampleTest   (ProxySampleTest.java:61) 
+     - Do action
+2016-08-27 10:45:13,211 INFO  [Test worker] ProxySampleTest   (ProxySampleTest.java:67) 
+     - Verify result
+2016-08-27 10:45:13,212 INFO  [Test worker] Engine            (  Engine.java:52) 
+     - Is Web Analytics Testing Enabled? - Getting variable value from ThreadLocal: usingWAAT11
+2016-08-27 10:45:13,213 INFO  [Test worker] Engine            (  Engine.java:54) 
+     - Is Web Analytics Testing Enabled? - WebAnalytics enabled status: true
+2016-08-27 10:45:13,213 INFO  [Test worker] Engine            (  Engine.java:78) 
+     - Verify Web Analytics Data for PROXY
+2016-08-27 10:45:13,214 INFO  [Test worker] Engine            (TestData.java:33) 
+     - Loading input data file: C:\Users\GatagatL\Documents\VodQA2016-WAAT\waat-sample-java\src\test\sampledata\TestData.xml
+2016-08-27 10:45:13,214 INFO  [Test worker] Engine            (TestData.java:59) 
+     - Input file is already loaded in memory
+2016-08-27 10:45:13,215 INFO  [Test worker] PluginFactory     (PluginFactory.java:37) 
+     - Returning Proxy Debugger plugin instance
+2016-08-27 10:45:13,215 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:37) 
+     - Number of requests captured - 60
+2016-08-27 10:45:13,216 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:38) 
+     - Number of matching URLs to be found - 1
+2016-08-27 10:45:13,216 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:46) 
+     - Finding log entries for criteria - [https://ssl.google-analytics.com/__]
+2016-08-27 10:45:13,217 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:51) 
+     - Checking url - https://ssl.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=12&utmn=981774208&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*embed*player_initialized)8(2!document_referrer)9(2!https%3A%2F%2Fessenceoftesting.blogspot.in%2Fsearch%2Flabel%2Fwaat)&utmcs=UTF-8&utmsr=1366x768&utmvp=425x355&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=The%20What%2C%20Why%20and%20How%20of%20Web%20Analytics%20Testing%20(Web%2C%20IoT%2C%20Big%20Data)&utmhid=1911919068&utmr=https%3A%2F%2Fessenceoftesting.blogspot.in%2Fsearch%2Flabel%2Fwaat&utmp=%2Fslideshow%2Fembed_code%2Fkey%2Fr5oPpGbUGqXE3&utmht=1472274902869&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.1993500811.1472274885.1472274885.1472274885.1%3B%2B__utmz%3D186399478.1472274885.1.1.utmcsr%3Dessenceoftesting.blogspot.in%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D%2F%3B&utmjid=&utmu=6RCAACAAAAAAAAAAAAAAAAAE~
+2016-08-27 10:45:13,217 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:104) 
+     - Request matches the pattern - https://ssl.google-analytics.com/__
+2016-08-27 10:45:13,221 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:56) 
+     - Found match for URL - https://ssl.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=12&utmn=981774208&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*embed*player_initialized)8(2!document_referrer)9(2!https%3A%2F%2Fessenceoftesting.blogspot.in%2Fsearch%2Flabel%2Fwaat)&utmcs=UTF-8&utmsr=1366x768&utmvp=425x355&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=The%20What%2C%20Why%20and%20How%20of%20Web%20Analytics%20Testing%20(Web%2C%20IoT%2C%20Big%20Data)&utmhid=1911919068&utmr=https%3A%2F%2Fessenceoftesting.blogspot.in%2Fsearch%2Flabel%2Fwaat&utmp=%2Fslideshow%2Fembed_code%2Fkey%2Fr5oPpGbUGqXE3&utmht=1472274902869&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.1993500811.1472274885.1472274885.1472274885.1%3B%2B__utmz%3D186399478.1472274885.1.1.utmcsr%3Dessenceoftesting.blogspot.in%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D%2F%3B&utmjid=&utmu=6RCAACAAAAAAAAAAAAAAAAAE~
+2016-08-27 10:45:13,223 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:71) 
+     - Decoded URL: https://ssl.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=12&utmn=981774208&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*embed*player_initialized)8(2!document_referrer)9(2!https://essenceoftesting.blogspot.in/search/label/waat)&utmcs=UTF-8&utmsr=1366x768&utmvp=425x355&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=The What, Why and How of Web Analytics Testing (Web, IoT, Big Data)&utmhid=1911919068&utmr=https://essenceoftesting.blogspot.in/search/label/waat&utmp=/slideshow/embed_code/key/r5oPpGbUGqXE3&utmht=1472274902869&utmac=UA-2330466-1&utmni=1&utmcc=__utma=186399478.1993500811.1472274885.1472274885.1472274885.1;+__utmz=186399478.1472274885.1.1.utmcsr=essenceoftesting.blogspot.in|utmccn=(referral)|utmcmd=referral|utmcct=/;&utmjid=&utmu=6RCAACAAAAAAAAAAAAAAAAAE~
+2016-08-27 10:45:13,228 INFO  [Test worker] ProxySampleTest   (TestBase.java:28) 
+     - Verification ERRORS:
+2016-08-27 10:45:13,229 INFO  [Test worker] ProxySampleTest   (TestBase.java:29) 
+     - []
+2016-08-27 10:45:13,229 INFO  [Test worker] Engine            (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.webanalyticsautomation.samples.OmnitureDebuggerSampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-27T05:13:48" hostname="NC3JX5Z1" time="27.954">
+  <properties/>
+  <testcase name="captureAndVerifyDataReportedToWebAnalytics_OmnitureDebugger_Selenium_Firefox" classname="com.thoughtworks.webanalyticsautomation.samples.OmnitureDebuggerSampleTest" time="27.954"/>
+  <system-out><![CDATA[2016-08-27 10:43:48,973 INFO  [Test worker] TestData          (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:43:48,973 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:43:49,026 INFO  [Test worker] TestData          (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:43:49,027 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:43:49,028 INFO  [Test worker] OmnitureDebuggerSampleTest (WebDriverScriptRunnerHelper.java:34) 
+     - Starting WebDriver on OS: windows 7 for browser: firefox
+2016-08-27 10:44:03,119 INFO  [Test worker] OmnitureDebuggerSampleTest (WebDriverScriptRunnerHelper.java:52) 
+     - Driver started: firefox
+2016-08-27 10:44:04,052 INFO  [Test worker] OmnitureDebuggerSampleTest (WebDriverScriptRunnerHelper.java:53) 
+     - Page title: Digg - What the Internet is talking about right now
+2016-08-27 10:44:10,660 INFO  [Test worker] Engine            (  Engine.java:52) 
+     - Is Web Analytics Testing Enabled? - Getting variable value from ThreadLocal: usingWAAT11
+2016-08-27 10:44:10,660 INFO  [Test worker] Engine            (  Engine.java:54) 
+     - Is Web Analytics Testing Enabled? - WebAnalytics enabled status: true
+2016-08-27 10:44:10,661 INFO  [Test worker] Engine            (  Engine.java:65) 
+     - Verify Web Analytics Data for OMNITURE_DEBUGGER
+2016-08-27 10:44:10,661 INFO  [Test worker] Engine            (TestData.java:33) 
+     - Loading input data file: C:\Users\GatagatL\Documents\VodQA2016-WAAT\waat-sample-java\src\test\sampledata\TestData.xml
+2016-08-27 10:44:10,661 INFO  [Test worker] Engine            (TestData.java:59) 
+     - Input file is already loaded in memory
+2016-08-27 10:44:10,662 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:29) 
+     - Creating an instance of Omniture Debugger
+2016-08-27 10:44:10,662 INFO  [Test worker] PluginFactory     (PluginFactory.java:30) 
+     - Returning Omniture Debugger plugin instance
+2016-08-27 10:44:10,664 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:33) 
+     - Capturing sections from Omniture Debugger
+2016-08-27 10:44:11,000 INFO  [Test worker] WebDriverScriptRunner (WebDriverScriptRunner.java:32) 
+     - Opening Omniture Debugger: javascript:(window.open("","stats_debugger","width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language='JavaScript' src='http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html'></script>"));
+2016-08-27 10:44:16,451 INFO  [Test worker] OmnitureDebuggerSampleTest (TestBase.java:28) 
+     - Verification ERRORS:
+2016-08-27 10:44:16,452 INFO  [Test worker] OmnitureDebuggerSampleTest (TestBase.java:29) 
+     - [Action Name: OpenUpcomingPage_OmnitureDebugger_Selenium, Following tags found missing: , s.pageName = 'upcoming:index', s.eVar23 = 'upcoming:index', s.heir1 = 'upcoming', s.heir2 = 'index', s.channel = 'upcoming', s.eVar22 = 'upcoming', s.prop5 = 'anonymous', s.eVar5 = 'anonymous', s.prop4 = 'anonymous', s.eVar4 = 'anonymous', s.prop9 = 'all', s.eVar9 = 'all', s.events = 'event2', Adding Actual Section List: 1, <html xmlns="http://www.w3.org/1999/xhtml"><head><script src="http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html" language="JavaScript"></script><title>Omniture Debugger</title></head><body bgcolor="#CECECE"><table width="100%" cellspacing="1" cellpadding="2" border="0"><form name="debugger"></form><tbody><tr bgcolor="#293431"><td height="24" style="font:bold 14px arial,sans-serif;color:#FFFFFF;">  Omniture Debugger</td></tr><tr><td style="font:bold 11px arial,sans-serif;color:#000000;"><ul><li>This tool will recheck and refresh the request list every 5 seconds in the case that an image source changes or another flash event was tracked.  You can disable the auto refresh below.</li><li>This tool will not work with sites that use frames.</li></ul></td></tr><tr><td><input type="button" onclick="window.close();" value="Close" name="close1" /></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td height="8"></td></tr><tr><td style="font:bold 11px arial,sans-serif;color:#000000;">Data Collection Requests:  <span style="font:11px arial,sans-serif;color:#000000;">URL Decode</span> <input type="checkbox" onclick="window.url_decode=this.checked;request_list_run()" name="url_decode" />  <span style="font:11px arial,sans-serif;color:#000000;">Auto Refresh</span> <input type="checkbox" checked="checked" onclick="window.auto_refresh=this.checked" name="auto_refresh" /></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td align="center" id="request_list_cell"><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td align="center" style="font:11px arial,sans-serif;color:#FF0000;">No Requests Found</td></tr></tbody></table></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td height="8"></td></tr><tr><td><input type="button" onclick="window.close();" value="Close" name="close2" /></td></tr></tbody></table><img width="0" border="0" height="0" alt="0" src="http://support.112.2O7.net/b/ss/support/1/TAG/s0.816174001472274850/?pageName=Stats%20Debugger&amp;prop1=" /></body></html>]
+2016-08-27 10:44:16,453 INFO  [Test worker] Engine            (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

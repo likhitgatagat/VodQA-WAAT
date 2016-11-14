@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.thoughtworks.webanalyticsautomation.EngineWithWebDriverTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.thoughtworks.webanalyticsautomation.EngineWithWebDriverTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.thoughtworks.webanalyticsautomation.html">com.thoughtworks.webanalyticsautomation</a> &gt; EngineWithWebDriverTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">44.393s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">captureAndVerifyDataReportedToWebAnalytics_WebDriver_Firefox</td>
+<td>44.393s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2016-08-27 10:43:04,581 INFO  [Test worker] Controller        (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:43:04,595 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:43:04,601 INFO  [Test worker] Controller        (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:43:04,602 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:43:04,604 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:34) 
+     - Starting WebDriver on OS: windows 7 for browser: firefox
+2016-08-27 10:43:31,089 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:52) 
+     - Driver started: firefox
+2016-08-27 10:43:32,831 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:53) 
+     - Page title: Digg - What the Internet is talking about right now
+2016-08-27 10:43:40,050 INFO  [Test worker] Engine            (  Engine.java:52) 
+     - Is Web Analytics Testing Enabled? - Getting variable value from ThreadLocal: usingWAAT11
+2016-08-27 10:43:40,107 INFO  [Test worker] Engine            (  Engine.java:54) 
+     - Is Web Analytics Testing Enabled? - WebAnalytics enabled status: true
+2016-08-27 10:43:40,108 INFO  [Test worker] Engine            (  Engine.java:65) 
+     - Verify Web Analytics Data for OMNITURE_DEBUGGER
+2016-08-27 10:43:40,125 INFO  [Test worker] TestData          (TestData.java:33) 
+     - Loading input data file: C:\Users\GatagatL\Documents\VodQA2016-WAAT\waat-sample-java\src\test\sampledata\TestData.xml
+2016-08-27 10:43:40,125 INFO  [Test worker] TestData          (TestData.java:62) 
+     - Loading Input data file ...
+2016-08-27 10:43:40,431 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:29) 
+     - Creating an instance of Omniture Debugger
+2016-08-27 10:43:40,431 INFO  [Test worker] PluginFactory     (PluginFactory.java:30) 
+     - Returning Omniture Debugger plugin instance
+2016-08-27 10:43:40,431 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:33) 
+     - Capturing sections from Omniture Debugger
+2016-08-27 10:43:40,471 INFO  [Test worker] WebDriverScriptRunner (WebDriverScriptRunner.java:32) 
+     - Opening Omniture Debugger: javascript:(window.open(&quot;&quot;,&quot;stats_debugger&quot;,&quot;width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1&quot;).document.write(&quot;&lt;script language='JavaScript' src='http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html'&gt;&lt;/script&gt;&quot;));
+2016-08-27 10:43:48,321 INFO  [Test worker] EngineWithWebDriverTest (TestBase.java:28) 
+     - Verification ERRORS:
+2016-08-27 10:43:48,322 INFO  [Test worker] EngineWithWebDriverTest (TestBase.java:29) 
+     - [Action Name: OpenUpcomingPage_OmnitureDebugger_WebDriver, Following tags found missing: , pageName=upcoming:index, cc=USD, ch=upcoming, events=event2, Adding Actual Section List: 1, &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;head&gt;&lt;script src=&quot;http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html&quot; language=&quot;JavaScript&quot;&gt;&lt;/script&gt;&lt;title&gt;Omniture Debugger&lt;/title&gt;&lt;/head&gt;&lt;body bgcolor=&quot;#CECECE&quot;&gt;&lt;table width=&quot;100%&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; border=&quot;0&quot;&gt;&lt;form name=&quot;debugger&quot;&gt;&lt;/form&gt;&lt;tbody&gt;&lt;tr bgcolor=&quot;#293431&quot;&gt;&lt;td height=&quot;24&quot; style=&quot;font:bold 14px arial,sans-serif;color:#FFFFFF;&quot;&gt;  Omniture Debugger&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;font:bold 11px arial,sans-serif;color:#000000;&quot;&gt;&lt;ul&gt;&lt;li&gt;This tool will recheck and refresh the request list every 5 seconds in the case that an image source changes or another flash event was tracked.  You can disable the auto refresh below.&lt;/li&gt;&lt;li&gt;This tool will not work with sites that use frames.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;input type=&quot;button&quot; onclick=&quot;window.close();&quot; value=&quot;Close&quot; name=&quot;close1&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table width=&quot;100%&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td height=&quot;8&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;font:bold 11px arial,sans-serif;color:#000000;&quot;&gt;Data Collection Requests:  &lt;span style=&quot;font:11px arial,sans-serif;color:#000000;&quot;&gt;URL Decode&lt;/span&gt; &lt;input type=&quot;checkbox&quot; onclick=&quot;window.url_decode=this.checked;request_list_run()&quot; name=&quot;url_decode&quot; /&gt;  &lt;span style=&quot;font:11px arial,sans-serif;color:#000000;&quot;&gt;Auto Refresh&lt;/span&gt; &lt;input type=&quot;checkbox&quot; checked=&quot;checked&quot; onclick=&quot;window.auto_refresh=this.checked&quot; name=&quot;auto_refresh&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table width=&quot;100%&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot; id=&quot;request_list_cell&quot;&gt;&lt;table width=&quot;100%&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot; style=&quot;font:11px arial,sans-serif;color:#FF0000;&quot;&gt;No Requests Found&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table width=&quot;100%&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td height=&quot;8&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;input type=&quot;button&quot; onclick=&quot;window.close();&quot; value=&quot;Close&quot; name=&quot;close2&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;img width=&quot;0&quot; border=&quot;0&quot; height=&quot;0&quot; alt=&quot;0&quot; src=&quot;http://support.112.2O7.net/b/ss/support/1/TAG/s0.669018001472274820/?pageName=Stats%20Debugger&amp;amp;prop1=&quot; /&gt;&lt;/body&gt;&lt;/html&gt;]
+2016-08-27 10:43:48,323 INFO  [Test worker] TestData          (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at 27 Aug, 2016 10:45:14 AM</p>
+</div>
+</div>
+</body>
+</html>

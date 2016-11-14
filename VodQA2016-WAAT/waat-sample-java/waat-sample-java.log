@@ -1,0 +1,180 @@
+2016-08-27 10:32:15,465 INFO  [Test worker] Controller        (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:32:15,470 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:32:15,476 INFO  [Test worker] Controller        (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:32:15,477 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:32:15,479 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:34) 
+     - Starting WebDriver on OS: windows 7 for browser: firefox
+2016-08-27 10:33:06,152 INFO  [Test worker] Engine            (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+2016-08-27 10:33:06,179 INFO  [Test worker] Engine            (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:33:06,179 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:33:06,205 INFO  [Test worker] Engine            (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:33:06,206 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:33:06,206 INFO  [Test worker] OmnitureDebuggerSampleTest (WebDriverScriptRunnerHelper.java:34) 
+     - Starting WebDriver on OS: windows 7 for browser: firefox
+2016-08-27 10:33:52,909 INFO  [Test worker] Engine            (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+2016-08-27 10:33:52,932 INFO  [Test worker] Engine            (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:33:52,932 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:33:52,938 INFO  [Test worker] Engine            (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:33:52,961 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:24) 
+     - Creating an instance of ProxyDebugger
+2016-08-27 10:33:52,962 INFO  [Test worker] PluginFactory     (PluginFactory.java:37) 
+     - Returning Proxy Debugger plugin instance
+2016-08-27 10:33:52,962 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:138) 
+     - Get Proxy for the port 0
+2016-08-27 10:33:52,963 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:114) 
+     - Initializing BrowserMobProxy for the port - 0
+2016-08-27 10:33:55,107 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:125) 
+     - Returning proxy
+2016-08-27 10:34:42,095 INFO  [Test worker] Engine            (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+2016-08-27 10:43:04,581 INFO  [Test worker] Controller        (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:43:04,595 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:43:04,601 INFO  [Test worker] Controller        (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:43:04,602 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:43:04,604 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:34) 
+     - Starting WebDriver on OS: windows 7 for browser: firefox
+2016-08-27 10:43:31,089 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:52) 
+     - Driver started: firefox
+2016-08-27 10:43:32,831 INFO  [Test worker] EngineWithWebDriverTest (WebDriverScriptRunnerHelper.java:53) 
+     - Page title: Digg - What the Internet is talking about right now
+2016-08-27 10:43:40,050 INFO  [Test worker] Engine            (  Engine.java:52) 
+     - Is Web Analytics Testing Enabled? - Getting variable value from ThreadLocal: usingWAAT11
+2016-08-27 10:43:40,107 INFO  [Test worker] Engine            (  Engine.java:54) 
+     - Is Web Analytics Testing Enabled? - WebAnalytics enabled status: true
+2016-08-27 10:43:40,108 INFO  [Test worker] Engine            (  Engine.java:65) 
+     - Verify Web Analytics Data for OMNITURE_DEBUGGER
+2016-08-27 10:43:40,125 INFO  [Test worker] TestData          (TestData.java:33) 
+     - Loading input data file: C:\Users\GatagatL\Documents\VodQA2016-WAAT\waat-sample-java\src\test\sampledata\TestData.xml
+2016-08-27 10:43:40,125 INFO  [Test worker] TestData          (TestData.java:62) 
+     - Loading Input data file ...
+2016-08-27 10:43:40,431 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:29) 
+     - Creating an instance of Omniture Debugger
+2016-08-27 10:43:40,431 INFO  [Test worker] PluginFactory     (PluginFactory.java:30) 
+     - Returning Omniture Debugger plugin instance
+2016-08-27 10:43:40,431 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:33) 
+     - Capturing sections from Omniture Debugger
+2016-08-27 10:43:40,471 INFO  [Test worker] WebDriverScriptRunner (WebDriverScriptRunner.java:32) 
+     - Opening Omniture Debugger: javascript:(window.open("","stats_debugger","width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language='JavaScript' src='http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html'></script>"));
+2016-08-27 10:43:48,321 INFO  [Test worker] EngineWithWebDriverTest (TestBase.java:28) 
+     - Verification ERRORS:
+2016-08-27 10:43:48,322 INFO  [Test worker] EngineWithWebDriverTest (TestBase.java:29) 
+     - [Action Name: OpenUpcomingPage_OmnitureDebugger_WebDriver, Following tags found missing: , pageName=upcoming:index, cc=USD, ch=upcoming, events=event2, Adding Actual Section List: 1, <html xmlns="http://www.w3.org/1999/xhtml"><head><script src="http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html" language="JavaScript"></script><title>Omniture Debugger</title></head><body bgcolor="#CECECE"><table width="100%" cellspacing="1" cellpadding="2" border="0"><form name="debugger"></form><tbody><tr bgcolor="#293431"><td height="24" style="font:bold 14px arial,sans-serif;color:#FFFFFF;">  Omniture Debugger</td></tr><tr><td style="font:bold 11px arial,sans-serif;color:#000000;"><ul><li>This tool will recheck and refresh the request list every 5 seconds in the case that an image source changes or another flash event was tracked.  You can disable the auto refresh below.</li><li>This tool will not work with sites that use frames.</li></ul></td></tr><tr><td><input type="button" onclick="window.close();" value="Close" name="close1" /></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td height="8"></td></tr><tr><td style="font:bold 11px arial,sans-serif;color:#000000;">Data Collection Requests:  <span style="font:11px arial,sans-serif;color:#000000;">URL Decode</span> <input type="checkbox" onclick="window.url_decode=this.checked;request_list_run()" name="url_decode" />  <span style="font:11px arial,sans-serif;color:#000000;">Auto Refresh</span> <input type="checkbox" checked="checked" onclick="window.auto_refresh=this.checked" name="auto_refresh" /></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td align="center" id="request_list_cell"><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td align="center" style="font:11px arial,sans-serif;color:#FF0000;">No Requests Found</td></tr></tbody></table></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td height="8"></td></tr><tr><td><input type="button" onclick="window.close();" value="Close" name="close2" /></td></tr></tbody></table><img width="0" border="0" height="0" alt="0" src="http://support.112.2O7.net/b/ss/support/1/TAG/s0.669018001472274820/?pageName=Stats%20Debugger&amp;prop1=" /></body></html>]
+2016-08-27 10:43:48,323 INFO  [Test worker] TestData          (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+2016-08-27 10:43:48,973 INFO  [Test worker] TestData          (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:43:48,973 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:43:49,026 INFO  [Test worker] TestData          (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:43:49,027 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:43:49,028 INFO  [Test worker] OmnitureDebuggerSampleTest (WebDriverScriptRunnerHelper.java:34) 
+     - Starting WebDriver on OS: windows 7 for browser: firefox
+2016-08-27 10:44:03,119 INFO  [Test worker] OmnitureDebuggerSampleTest (WebDriverScriptRunnerHelper.java:52) 
+     - Driver started: firefox
+2016-08-27 10:44:04,052 INFO  [Test worker] OmnitureDebuggerSampleTest (WebDriverScriptRunnerHelper.java:53) 
+     - Page title: Digg - What the Internet is talking about right now
+2016-08-27 10:44:10,660 INFO  [Test worker] Engine            (  Engine.java:52) 
+     - Is Web Analytics Testing Enabled? - Getting variable value from ThreadLocal: usingWAAT11
+2016-08-27 10:44:10,660 INFO  [Test worker] Engine            (  Engine.java:54) 
+     - Is Web Analytics Testing Enabled? - WebAnalytics enabled status: true
+2016-08-27 10:44:10,661 INFO  [Test worker] Engine            (  Engine.java:65) 
+     - Verify Web Analytics Data for OMNITURE_DEBUGGER
+2016-08-27 10:44:10,661 INFO  [Test worker] Engine            (TestData.java:33) 
+     - Loading input data file: C:\Users\GatagatL\Documents\VodQA2016-WAAT\waat-sample-java\src\test\sampledata\TestData.xml
+2016-08-27 10:44:10,661 INFO  [Test worker] Engine            (TestData.java:59) 
+     - Input file is already loaded in memory
+2016-08-27 10:44:10,662 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:29) 
+     - Creating an instance of Omniture Debugger
+2016-08-27 10:44:10,662 INFO  [Test worker] PluginFactory     (PluginFactory.java:30) 
+     - Returning Omniture Debugger plugin instance
+2016-08-27 10:44:10,664 INFO  [Test worker] OmnitureDebugger  (OmnitureDebugger.java:33) 
+     - Capturing sections from Omniture Debugger
+2016-08-27 10:44:11,000 INFO  [Test worker] WebDriverScriptRunner (WebDriverScriptRunner.java:32) 
+     - Opening Omniture Debugger: javascript:(window.open("","stats_debugger","width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language='JavaScript' src='http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html'></script>"));
+2016-08-27 10:44:16,451 INFO  [Test worker] OmnitureDebuggerSampleTest (TestBase.java:28) 
+     - Verification ERRORS:
+2016-08-27 10:44:16,452 INFO  [Test worker] OmnitureDebuggerSampleTest (TestBase.java:29) 
+     - [Action Name: OpenUpcomingPage_OmnitureDebugger_Selenium, Following tags found missing: , s.pageName = 'upcoming:index', s.eVar23 = 'upcoming:index', s.heir1 = 'upcoming', s.heir2 = 'index', s.channel = 'upcoming', s.eVar22 = 'upcoming', s.prop5 = 'anonymous', s.eVar5 = 'anonymous', s.prop4 = 'anonymous', s.eVar4 = 'anonymous', s.prop9 = 'all', s.eVar9 = 'all', s.events = 'event2', Adding Actual Section List: 1, <html xmlns="http://www.w3.org/1999/xhtml"><head><script src="http://sitecatalyst.omniture.com/sc_tools/stats_debugger.html" language="JavaScript"></script><title>Omniture Debugger</title></head><body bgcolor="#CECECE"><table width="100%" cellspacing="1" cellpadding="2" border="0"><form name="debugger"></form><tbody><tr bgcolor="#293431"><td height="24" style="font:bold 14px arial,sans-serif;color:#FFFFFF;">  Omniture Debugger</td></tr><tr><td style="font:bold 11px arial,sans-serif;color:#000000;"><ul><li>This tool will recheck and refresh the request list every 5 seconds in the case that an image source changes or another flash event was tracked.  You can disable the auto refresh below.</li><li>This tool will not work with sites that use frames.</li></ul></td></tr><tr><td><input type="button" onclick="window.close();" value="Close" name="close1" /></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td height="8"></td></tr><tr><td style="font:bold 11px arial,sans-serif;color:#000000;">Data Collection Requests:  <span style="font:11px arial,sans-serif;color:#000000;">URL Decode</span> <input type="checkbox" onclick="window.url_decode=this.checked;request_list_run()" name="url_decode" />  <span style="font:11px arial,sans-serif;color:#000000;">Auto Refresh</span> <input type="checkbox" checked="checked" onclick="window.auto_refresh=this.checked" name="auto_refresh" /></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td align="center" id="request_list_cell"><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td align="center" style="font:11px arial,sans-serif;color:#FF0000;">No Requests Found</td></tr></tbody></table></td></tr></tbody></table><table width="100%" cellspacing="1" cellpadding="2" border="0"><tbody><tr><td height="8"></td></tr><tr><td><input type="button" onclick="window.close();" value="Close" name="close2" /></td></tr></tbody></table><img width="0" border="0" height="0" alt="0" src="http://support.112.2O7.net/b/ss/support/1/TAG/s0.816174001472274850/?pageName=Stats%20Debugger&amp;prop1=" /></body></html>]
+2016-08-27 10:44:16,453 INFO  [Test worker] Engine            (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
+2016-08-27 10:44:16,929 INFO  [Test worker] Engine            (Controller.java:40) 
+     - Resetting Engine to null
+2016-08-27 10:44:16,929 INFO  [Test worker] PluginFactory     (PluginFactory.java:20) 
+     - Resetting PluginInstances
+2016-08-27 10:44:16,942 INFO  [Test worker] Engine            (Controller.java:61) 
+     - Creating new Engine reference
+2016-08-27 10:44:16,946 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:24) 
+     - Creating an instance of ProxyDebugger
+2016-08-27 10:44:16,946 INFO  [Test worker] PluginFactory     (PluginFactory.java:37) 
+     - Returning Proxy Debugger plugin instance
+2016-08-27 10:44:16,946 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:138) 
+     - Get Proxy for the port 0
+2016-08-27 10:44:16,947 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:114) 
+     - Initializing BrowserMobProxy for the port - 0
+2016-08-27 10:44:17,865 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:125) 
+     - Returning proxy
+2016-08-27 10:44:47,985 INFO  [Test worker] ProxySampleTest   (ProxySampleTest.java:59) 
+     - Start capture
+2016-08-27 10:44:47,985 INFO  [Test worker] Engine            (  Engine.java:37) 
+     - Enabling Web Analytics Testing - Setting variable on ThreadLocal: usingWAAT11
+2016-08-27 10:44:47,985 INFO  [Test worker] Engine            (  Engine.java:44) 
+     - Enable Packet Capture
+2016-08-27 10:44:47,986 INFO  [Test worker] PluginFactory     (PluginFactory.java:37) 
+     - Returning Proxy Debugger plugin instance
+2016-08-27 10:44:47,986 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:131) 
+     - Start capture
+2016-08-27 10:44:50,906 INFO  [Test worker] ProxySampleTest   (ProxySampleTest.java:61) 
+     - Do action
+2016-08-27 10:45:13,211 INFO  [Test worker] ProxySampleTest   (ProxySampleTest.java:67) 
+     - Verify result
+2016-08-27 10:45:13,212 INFO  [Test worker] Engine            (  Engine.java:52) 
+     - Is Web Analytics Testing Enabled? - Getting variable value from ThreadLocal: usingWAAT11
+2016-08-27 10:45:13,213 INFO  [Test worker] Engine            (  Engine.java:54) 
+     - Is Web Analytics Testing Enabled? - WebAnalytics enabled status: true
+2016-08-27 10:45:13,213 INFO  [Test worker] Engine            (  Engine.java:78) 
+     - Verify Web Analytics Data for PROXY
+2016-08-27 10:45:13,214 INFO  [Test worker] Engine            (TestData.java:33) 
+     - Loading input data file: C:\Users\GatagatL\Documents\VodQA2016-WAAT\waat-sample-java\src\test\sampledata\TestData.xml
+2016-08-27 10:45:13,214 INFO  [Test worker] Engine            (TestData.java:59) 
+     - Input file is already loaded in memory
+2016-08-27 10:45:13,215 INFO  [Test worker] PluginFactory     (PluginFactory.java:37) 
+     - Returning Proxy Debugger plugin instance
+2016-08-27 10:45:13,215 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:37) 
+     - Number of requests captured - 60
+2016-08-27 10:45:13,216 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:38) 
+     - Number of matching URLs to be found - 1
+2016-08-27 10:45:13,216 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:46) 
+     - Finding log entries for criteria - [https://ssl.google-analytics.com/__]
+2016-08-27 10:45:13,217 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:51) 
+     - Checking url - https://ssl.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=12&utmn=981774208&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*embed*player_initialized)8(2!document_referrer)9(2!https%3A%2F%2Fessenceoftesting.blogspot.in%2Fsearch%2Flabel%2Fwaat)&utmcs=UTF-8&utmsr=1366x768&utmvp=425x355&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=The%20What%2C%20Why%20and%20How%20of%20Web%20Analytics%20Testing%20(Web%2C%20IoT%2C%20Big%20Data)&utmhid=1911919068&utmr=https%3A%2F%2Fessenceoftesting.blogspot.in%2Fsearch%2Flabel%2Fwaat&utmp=%2Fslideshow%2Fembed_code%2Fkey%2Fr5oPpGbUGqXE3&utmht=1472274902869&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.1993500811.1472274885.1472274885.1472274885.1%3B%2B__utmz%3D186399478.1472274885.1.1.utmcsr%3Dessenceoftesting.blogspot.in%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D%2F%3B&utmjid=&utmu=6RCAACAAAAAAAAAAAAAAAAAE~
+2016-08-27 10:45:13,217 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:104) 
+     - Request matches the pattern - https://ssl.google-analytics.com/__
+2016-08-27 10:45:13,221 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:56) 
+     - Found match for URL - https://ssl.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=12&utmn=981774208&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*embed*player_initialized)8(2!document_referrer)9(2!https%3A%2F%2Fessenceoftesting.blogspot.in%2Fsearch%2Flabel%2Fwaat)&utmcs=UTF-8&utmsr=1366x768&utmvp=425x355&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=The%20What%2C%20Why%20and%20How%20of%20Web%20Analytics%20Testing%20(Web%2C%20IoT%2C%20Big%20Data)&utmhid=1911919068&utmr=https%3A%2F%2Fessenceoftesting.blogspot.in%2Fsearch%2Flabel%2Fwaat&utmp=%2Fslideshow%2Fembed_code%2Fkey%2Fr5oPpGbUGqXE3&utmht=1472274902869&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.1993500811.1472274885.1472274885.1472274885.1%3B%2B__utmz%3D186399478.1472274885.1.1.utmcsr%3Dessenceoftesting.blogspot.in%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D%2F%3B&utmjid=&utmu=6RCAACAAAAAAAAAAAAAAAAAE~
+2016-08-27 10:45:13,223 INFO  [Test worker] ProxyDebugger     (ProxyDebugger.java:71) 
+     - Decoded URL: https://ssl.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=12&utmn=981774208&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*embed*player_initialized)8(2!document_referrer)9(2!https://essenceoftesting.blogspot.in/search/label/waat)&utmcs=UTF-8&utmsr=1366x768&utmvp=425x355&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=The What, Why and How of Web Analytics Testing (Web, IoT, Big Data)&utmhid=1911919068&utmr=https://essenceoftesting.blogspot.in/search/label/waat&utmp=/slideshow/embed_code/key/r5oPpGbUGqXE3&utmht=1472274902869&utmac=UA-2330466-1&utmni=1&utmcc=__utma=186399478.1993500811.1472274885.1472274885.1472274885.1;+__utmz=186399478.1472274885.1.1.utmcsr=essenceoftesting.blogspot.in|utmccn=(referral)|utmcmd=referral|utmcct=/;&utmjid=&utmu=6RCAACAAAAAAAAAAAAAAAAAE~
+2016-08-27 10:45:13,228 INFO  [Test worker] ProxySampleTest   (TestBase.java:28) 
+     - Verification ERRORS:
+2016-08-27 10:45:13,229 INFO  [Test worker] ProxySampleTest   (TestBase.java:29) 
+     - []
+2016-08-27 10:45:13,229 INFO  [Test worker] Engine            (  Engine.java:59) 
+     - Web Analytics Testing Disabled - Reset variable on ThreadLocal
